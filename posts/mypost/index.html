@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.134.3">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://NotMartin1.github.io/css/index.css">
+<link rel="stylesheet" href="css/index.css">
 <link rel="canonical" href="https://NotMartin1.github.io/posts/mypost/">
 <link rel="alternate" type="application/rss+xml" href="" title="Marcin Page">
 
@@ -28,8 +28,22 @@
     <h1>Post title</h1>
     <time datetime="2024-09-21T15:05:39&#43;03:00">September 21, 2024</time>
   </header>
-  <p>Debesų kompiuterija - 2 namų darbas</p>
+  <p>Debesų kompiuterija - 2 namų darbas.</p>
+<p><img src="https://assets.codeguru.com/uploads/2021/08/C-Sharp-Tutorials.png" alt="Paveiksliukas"></p>
+<pre tabindex="0"><code class="language-using" data-lang="using">using Model.Entities.Manager.Session;
 
+namespace Model.Services
+{
+    public interface ISessionService
+    {
+        Task&lt;int&gt; CreateAsync(SessionCreateArgs args);
+        Task&lt;ServerResult&lt;List&lt;SessionData&gt;&gt;&gt; GetSessionsAsync();
+        Task ExtendSessionAsync(int sessionId);
+        Task&lt;bool&gt; CheckSessionIsExpiredAsync(int sessionId);
+        Task&lt;ServerResult&gt; ExpireSessionAsync(SessionExpireRequest request);
+    }
+}
+</code></pre>
 </article>
 
 
