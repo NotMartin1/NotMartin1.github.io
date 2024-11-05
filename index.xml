@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marcin Page</title>
-    <link>http://localhost:1313/</link>
+    <link>{{ .Site.BaseURL }}</link>
     <description>Recent content on Marcin Page</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Sep 2024 15:21:32 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Images</title>
-      <link>http://localhost:1313/images/</link>
+      <link>{{ .Site.BaseURL }}images/</link>
       <pubDate>Sat, 21 Sep 2024 15:21:32 +0300</pubDate>
-      <guid>http://localhost:1313/images/</guid>
+      <guid>{{ .Site.BaseURL }}images/</guid>
       <description>&lt;h1 id=&#34;paveikslai-su-gyvunais&#34;&gt;Paveikslai su gyvunais&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Sis puslapis skirtas atvaizduoti paveikslelius su gyvunais. Cia rasite nuostabiu katinu ir sunu, kurie atskleidzia gyvunu pasaulio grozi ir zaisminguma.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg&#34; alt=&#34;Cat&#34;&gt;&#xA;&lt;em&gt;Siame paveikslelyje matome rudaplauki katina su zaliomis akimis. Jo smalsi israiska ir zavingas kailis suteikia jam zaismingumo ir silumos.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/top-20-small-dog-breeds.jpeg.jpg&#34; alt=&#34;Dog&#34;&gt;&#xA;&lt;em&gt;Antrame paveikslelyje pavaizduotas baltas suniukas, kuris soka zoleje. Jo energija ir zaismingumas akivaizdus, o dziaugsmas, su kuriuo jis zaidzia, privercia mus nusisypsoti.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Post title</title>
-      <link>http://localhost:1313/posts/mypost/</link>
+      <link>{{ .Site.BaseURL }}posts/mypost/</link>
       <pubDate>Sat, 21 Sep 2024 15:05:39 +0300</pubDate>
-      <guid>http://localhost:1313/posts/mypost/</guid>
+      <guid>{{ .Site.BaseURL }}posts/mypost/</guid>
       <description>&lt;p&gt;Debesų kompiuterija - 2 namų darbas&lt;/p&gt;</description>
     </item>
   </channel>
