@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Marcin Page</title>
-    <link>{{ .Site.BaseURL }}posts/</link>
+    <link>https://NotMartin1.github.io/my-repo/posts/</link>
     <description>Recent content in Posts on Marcin Page</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Sep 2024 15:05:39 +0300</lastBuildDate>
-    <atom:link href="{{ .Site.BaseURL }}posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://NotMartin1.github.io/my-repo/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post title</title>
-      <link>{{ .Site.BaseURL }}posts/mypost/</link>
+      <link>https://NotMartin1.github.io/my-repo/posts/mypost/</link>
       <pubDate>Sat, 21 Sep 2024 15:05:39 +0300</pubDate>
-      <guid>{{ .Site.BaseURL }}posts/mypost/</guid>
+      <guid>https://NotMartin1.github.io/my-repo/posts/mypost/</guid>
       <description>&lt;p&gt;Debesų kompiuterija - 2 namų darbas&lt;/p&gt;</description>
     </item>
   </channel>

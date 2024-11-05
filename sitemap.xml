@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>{{ .Site.BaseURL }}images/</loc>
+    <loc>https://NotMartin1.github.io/my-repo/images/</loc>
     <lastmod>2024-09-21T15:21:32+03:00</lastmod>
   </url><url>
-    <loc>{{ .Site.BaseURL }}</loc>
+    <loc>https://NotMartin1.github.io/my-repo/</loc>
     <lastmod>2024-09-21T15:21:32+03:00</lastmod>
   </url><url>
-    <loc>{{ .Site.BaseURL }}posts/mypost/</loc>
+    <loc>https://NotMartin1.github.io/my-repo/posts/mypost/</loc>
     <lastmod>2024-09-21T15:05:39+03:00</lastmod>
   </url><url>
-    <loc>{{ .Site.BaseURL }}posts/</loc>
+    <loc>https://NotMartin1.github.io/my-repo/posts/</loc>
     <lastmod>2024-09-21T15:05:39+03:00</lastmod>
   </url><url>
-    <loc>{{ .Site.BaseURL }}categories/</loc>
+    <loc>https://NotMartin1.github.io/my-repo/categories/</loc>
   </url><url>
-    <loc>{{ .Site.BaseURL }}tags/</loc>
+    <loc>https://NotMartin1.github.io/my-repo/tags/</loc>
   </url>
 </urlset>
